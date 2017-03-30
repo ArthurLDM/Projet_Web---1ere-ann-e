@@ -1,0 +1,164 @@
+header
+{
+    display: block;
+    min-height:145px;
+    height:15%;
+    width : 100%;
+    min-width: 900px;
+    margin : 0px;
+    padding : 0px;
+}
+
+.background
+{
+    /*Position*/
+    position : absolute;
+    top:0%;
+    left:0%;
+    right:0%;
+    z-index: -1;
+    
+     /*Taille*/
+    height: 15%;
+    min-height: 145px;
+    width: 100%;
+    min-width: 900px;
+}
+
+/*on utilise un subtergufe qui ser à a garder 
+le bandeau intact même quand la taille de la page varie*/
+.espace_gauche
+{
+    display: inline-block;
+    width :34%;
+    min-width: 150px;
+}
+
+.titre
+{
+    display : inline-block;
+    /*Position*/
+    margin-top: 0px;
+    /*Taille*/
+    width: 40%;
+    min-width: 100px ;
+    height: 90px;
+    
+}
+
+.cube
+{
+    display : inline-block;
+    height:90%;
+}
+
+.titre_site
+{      
+    display :inline-block;
+    
+    width: 70%;
+    
+    vertical-align: top;
+    text-align: left;
+
+    font-family: 'MV Boli', serif;
+    
+
+    font-size:3vmin;
+    color:white;
+}
+
+.compte
+{
+    display : inline-block;
+    /*Position*/
+
+    float:right;
+    /*Taille*/
+    width:10%;
+    min-width: 150px;
+    height: 60px;
+        
+}
+.nom
+{
+    display: inline-block;
+        height:30%;
+        font-family: 'MV Boli', serif;
+    font-size:1.5em;
+    
+}
+
+.logout
+{
+    padding-left: 20px;
+    display : inline-block;
+    height:60%;
+   
+}
+
+.menu
+{
+    height: 35px;
+    display:inline-block;
+    width: 92% ;
+    min-width : 828px;
+    min-height: 1.5em;
+    margin-left: 4%;
+    background-color:rgba(210,210,210,0.7);
+    border-radius:10px;
+    margin-top: 8px;
+}
+
+.menu_cases
+{
+    width : 31%;
+    text-align: center;
+}
+
+.liens
+
+{
+    font-size: 20px;
+    font-family :lucida;
+    color: white;
+    text-decoration: none;
+}
+
+.liens:hover
+{
+    color: purple;
+}
+
+.rech
+{
+    height: 10px;
+}
+
+.rec
+{
+    width :100px;
+    text-align: left;
+    display:inline-block;
+    margin-left: 0px;
+}
+
+
+
+.loupe
+{
+    display:inline-block;
+    width: 18px;
+    
+}
+
+.bouton_loupe
+{
+    position:relative;
+    left:30px;
+    bottom:20px;
+    background: transparent;
+    border: none;
+    width: 18px;
+   display:inline-block;
+}

@@ -1,0 +1,75 @@
+<!-- Page de connexion utilisateur -->
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />	
+        <meta charset="UTF-8">
+        <title> Connexion </title>
+    </head>
+    
+    <body>
+        <h1 class="titre_site"> Gestion des projets - ENSC </h1>
+        <div class="v-center">
+            <form method="POST" action="connexion_recup.php">
+                <!-- La page est structurée par un tableau à deux colonne et de multiples lignes 
+                Ce qui permet d'avoir des élément a gauche et a droite -->
+                <table class="formulaire">
+                    <tr>
+                        <td>
+                            <h2 class="titre"> Connectez vous </h2>
+                        </td>
+                    </tr>
+                    
+                    <tr class="grandvide"></tr>
+                    
+                    <tr> 
+                        <td class="droite">Login :</td>
+                        <td>
+                            <label for="inputlogin" class="inter"/> 
+                            <input type="text" name="login" id="login" class="form" placeholder="Votre Email" required=""/> 
+                        </td>
+                    </tr>
+                    
+                    <tr class="vide"></tr>
+                    
+                    <tr>
+                        <td class="droite"> Mot de passe : </td>
+                        <td> 
+                            <label for="inputPassword"/>
+                            <input type="password" name="mdp" id="mdp" class="form" placeholder="Votre mot de passe" required="" />
+                        </td> 
+                    </tr>
+
+                    <tr class="droite mdpo" >
+                        <td></td> <!--La case vide permet d'avoir MDP oubliè a droite du tableau -->
+                        <td><a href="mdp_oublie.html"> Mot de passe oublié ? </a></td>
+                    </tr>
+
+                    <tr class="vide"></tr>
+
+                    <tr>
+                        <td colspan="2" class="keepco">
+                        <label> Restez connecté : <input type="checkbox" name="keepco" id="keepco" /> </label></td>
+                    </tr>
+
+                    <tr class="vide"></tr>
+                    
+                    <tr> 
+                        <td  COLSPAN="2" class="bouton">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Connexion</button>
+                        </td>
+                    </tr>
+                    
+                    <tr class="grandvide"></tr>
+                    
+                    <tr>
+                        <td COLSPAN="2" class="gest mdpo"><a href="contact.php"> Contact gestionnaire </a></td>
+                    </tr>
+                </table>  
+            </form>
+        </div>
+        
+    </body>
+</html>
+
+
+

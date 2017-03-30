@@ -1,0 +1,39 @@
+body
+{
+    margin:0px;
+    padding:0px;
+}
+
+main
+{
+    height:70%;
+    min-height:300px;
+    width:100%;
+    min-width: 900px;
+    
+}
+
+.bienvenue
+{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+
+.paragraphe
+{
+    margin-top: 50px;
+    height: 50%;
+    display: inline-block;
+    width:90%;
+    margin-left: 5%;
+
+        
+}
+.footer
+{
+    width:100%;
+    min-width: 900px;
+    height:8%;
+    min-height: 50px;
+}

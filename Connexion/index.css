@@ -1,0 +1,223 @@
+/* Pour toute les pages (index, conexion_recup, mail_recup, contact,mdp_oublie)*/
+body
+{
+    background: url('../Images/fond.jpg')no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+a
+{
+    color: black;
+}
+
+a:hover 
+{ 
+color: purple;
+}
+
+
+/*pour connexion_recup*/
+.erreur
+{
+      font-size: 10;
+      text-align: center;
+      position: absolute;
+      margin-left: 36%;
+      margin-right: 30%;
+      margin-top: 9%;
+      background: red;
+}
+
+/*pour contact */
+.titre_site
+{     
+    position: absolute;
+    top: 8%;
+    left : 50%;
+    margin-left: -300px;
+    width: 600px;
+    
+    text-align: center;
+    
+    font-family: 'MV Boli', serif;
+    font-size:250%;
+    color:white;
+}
+
+.v-center 
+{
+    margin-top:7%;
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom:7%;
+}
+
+.formulaire 
+{
+    position: absolute;
+    left: 50%;
+    top:28%;
+    width: 500px;
+    margin-left: -250px;
+    background-color:rgba(210,210,210,0.6);
+    border-radius:75px;
+}
+
+.titre
+{
+    position: absolute;
+    left : 50%;
+    margin-top: 0%;
+    width: 300px;
+    margin-left: -150px;
+    
+    text-align: center;
+    
+    font-family: 'Franklin Gothic Medium';
+}
+
+.grandvide
+{
+    height: 30px;
+}
+
+.droite
+{
+    text-align: right;
+}
+
+.inter
+{
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+}
+
+.form
+{
+    margin-left: 10%;
+  display: block;
+  width: 80%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.vide
+{
+    height:10px;
+}
+
+
+.keepco
+{
+    text-align: center;
+}
+
+.gest
+{
+    text-align: center;
+}
+
+.mdpo
+{
+    font-size: small;
+}
+
+.boutton
+{
+   border-collapse: collapse;
+    width: 100%;
+}
+
+.btn 
+{
+  background-image:none;
+  border:1px solid transparent;
+  border-radius:4px;
+  cursor:pointer;
+  display:inline-block;
+  font-size:14px;
+  font-weight:400;
+  line-height:1.42857;
+  margin-bottom:0;
+  margin-left: 15%;
+  padding:6px 12px;
+  text-align:center;
+  touch-action:manipulation;
+  vertical-align:middle;
+  white-space:nowrap;
+}
+
+.btn-lg 
+{
+  border-radius:6px;
+  font-size:18px;
+  line-height:1.33333;
+  padding:10px 16px;
+}
+
+.btn-primary 
+{
+  background-color:#337AB7;
+  border-color:#2E6DA4;
+  color:#FFFFFF;
+}
+
+.btn-block 
+{
+  display:block;
+  width: 70%;
+}
+
+
+
+
+/*pour mdp_oublié*/
+.titre2
+{
+    position: absolute;
+    left : 50%;
+    margin-top: 0%;
+    width: 400px;
+    margin-left: -200px;
+    
+    text-align: center;
+    
+    font-family: 'Franklin Gothic Medium';
+}
+
+.email
+{
+    text-align: center;
+}
+
+
+
+.form-control2
+{
+  display: block;
+  width: 80%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}

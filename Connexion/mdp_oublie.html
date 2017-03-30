@@ -1,0 +1,48 @@
+<!-- Page de récupération de mot de passe -->
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <meta charset="UTF-8">
+        <title> Récupération mdp </title>
+    </head>
+    
+    <body>
+        <h1 class="titre_site"> Gestion des projets - ENSC </h1>
+        
+        
+        <div class="v-center">
+            <form method="POST" action="mail_recup.php"> 
+                <table class="formulaire"> 
+                    <tr>
+                        <td>
+                            <h2 class="titre2"> Récupérez votre mot de passe </h2>
+                        </td>
+                    </tr>
+                    <tr class="grandvide"></tr>
+                    <tr class="grandvide"></tr>
+                    <tr class="grandvide"></tr>
+                    <tr> 
+                        <td class="email"> Email : </td>
+                        <td>
+                        <label for="inputEmail" class="sr-only"/> 
+                        <input type="text" size="20" name="mail" id = "mail" class="form-control2" required="" /> 
+                        </td> 
+                    </tr>
+                    <tr class="grandvide"></tr>
+                    <tr class="grandvide"></tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" value="Envoyer" class="btn btn-lg btn-primary btn-block">Envoyer</button>
+                        </td>
+                    </tr>
+                    <tr class="grandvide"></tr>
+                    <tr>
+                        <td colspan="2" class="keepco">
+                             <a href="index.html"> Revenir à la page de connexion </a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
